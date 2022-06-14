@@ -8,15 +8,29 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.membros{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,20rem);
+    gap: 1rem;    
 }
 
-
 .item {
-    width: 30em;
+    width: 20rem;
     background-color: white;
     box-sizing: border-box;
     padding: 1.5em;
-    margin-bottom: 1em;
     border-radius: 5px;
     border: 1px solid lightgray;
   }
